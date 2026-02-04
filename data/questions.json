@@ -19,6 +19,7 @@
                 "Lambda"
             ],
             "answer": "S3",
-            "explanation": "Amazon S3 (Simple Storage Service) provides scalable object storage."
+            "explanation": "S3 (Simple Storage Service) provides scalable object storage."
         }
+        
     ]
