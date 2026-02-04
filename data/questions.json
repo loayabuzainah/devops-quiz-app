@@ -1,11 +1,24 @@
     [
         {
-          "topic": "CI/CD",
-          "question": "What does CI stand for in DevOps?",
-          "options": ["Continuous Integration", "Continuous Improvement", "Code Inspection"],
-          "answer": "Continuous Integration",
-          "explanation": "CI means Continuous Integration, where developers frequently merge code changes into a shared repository."
+            "topic": "CI/CD",
+            "question": "What does CI stand for in DevOps?",
+            "options": [
+                "Continuous Integration",
+                "Continuous Improvement",
+                "Code Inspection"
+            ],
+            "answer": "Continuous Integration",
+            "explanation": "CI means Continuous Integration, where developers frequently merge code changes into a shared repository."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which AWS service provides object storage?",
+            "options": [
+                "S3",
+                "EC2",
+                "Lambda"
+            ],
+            "answer": "S3",
+            "explanation": "Amazon S3 (Simple Storage Service) provides scalable object storage."
         }
-
-      ]
-      
+    ]
