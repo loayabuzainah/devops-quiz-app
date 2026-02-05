@@ -108,5 +108,115 @@
             ],
             "answer": "Incremental changes",
             "explanation": "Incremental changes reduce risk by deploying small updates frequently."
+        },
+        {
+            "topic": "CI/CD",
+            "question": "What does CD stand for in DevOps?",
+            "options": [
+                "Continuous Deployment",
+                "Continuous Development",
+                "Code Delivery"
+            ],
+            "answer": "Continuous Deployment",
+            "explanation": "CD can mean Continuous Deployment or Continuous Delivery, both focusing on automating releases."
+        },
+        {
+            "topic": "CI/CD",
+            "question": "Which practice ensures code changes are automatically tested before merging?",
+            "options": [
+                "Continuous Integration",
+                "Continuous Monitoring",
+                "Continuous Deployment"
+            ],
+            "answer": "Continuous Integration",
+            "explanation": "Continuous Integration runs automated tests to validate code before merging."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which tool is commonly used for infrastructure automation?",
+            "options": [
+                "Terraform",
+                "Jenkins",
+                "Git"
+            ],
+            "answer": "Terraform",
+            "explanation": "Terraform automates infrastructure provisioning using code."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which tool is primarily used for configuration management?",
+            "options": [
+                "Ansible",
+                "Docker",
+                "Kubernetes"
+            ],
+            "answer": "Ansible",
+            "explanation": "Ansible automates configuration management and application deployment."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "Which metric is commonly tracked to measure system health?",
+            "options": [
+                "CPU usage",
+                "Code commits",
+                "Pull requests"
+            ],
+            "answer": "CPU usage",
+            "explanation": "Monitoring CPU usage helps detect performance bottlenecks and system overloads."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "Which tool is widely used for log management?",
+            "options": [
+                "ELK Stack",
+                "Docker",
+                "GitHub"
+            ],
+            "answer": "ELK Stack",
+            "explanation": "The ELK Stack (Elasticsearch, Logstash, Kibana) is used for centralized log management."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which Google Cloud service provides serverless computing?",
+            "options": [
+                "Cloud Functions",
+                "Compute Engine",
+                "Cloud Storage"
+            ],
+            "answer": "Cloud Functions",
+            "explanation": "Google Cloud Functions allows running code in a serverless environment."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which Azure service is used for hosting virtual machines?",
+            "options": [
+                "Azure Virtual Machines",
+                "Azure Functions",
+                "Azure Blob Storage"
+            ],
+            "answer": "Azure Virtual Machines",
+            "explanation": "Azure Virtual Machines provide scalable compute resources in the cloud."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "Which principle emphasizes small, frequent changes?",
+            "options": [
+                "Continuous Improvement",
+                "Big Bang Deployment",
+                "Manual Testing"
+            ],
+            "answer": "Continuous Improvement",
+            "explanation": "Continuous Improvement encourages iterative, small updates to reduce risk."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "Which practice encourages shared responsibility between teams?",
+            "options": [
+                "Collaboration",
+                "Isolation",
+                "Waterfall"
+            ],
+            "answer": "Collaboration",
+            "explanation": "Collaboration ensures development and operations teams work together seamlessly."
         }
     ]
