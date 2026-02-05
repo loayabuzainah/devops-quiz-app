@@ -1,6 +1,7 @@
  # DevOps Quiz App
 A static web application for DevOps quiz practice.
 
+
 ## Question Format Each question in `questions.json` follows this structure:
 { 
     "topic": "Continuous Integration",
@@ -15,4 +16,7 @@ A static web application for DevOps quiz practice.
     "explanation": "Explanation of the correct answer."
 }
 
+## Features
 - Feature: Question bank with 20 DevOps questions
+- Feature: Interactive quiz UI with topic selection
+
