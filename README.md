@@ -14,3 +14,5 @@ A static web application for DevOps quiz practice.
     "answerIndex": 1,
     "explanation": "Explanation of the correct answer."
 }
+
+- Feature: Question bank with 20 DevOps questions
