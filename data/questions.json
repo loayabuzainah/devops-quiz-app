@@ -11,6 +11,61 @@
             "explanation": "CI means Continuous Integration, where developers frequently merge code changes into a shared repository."
         },
         {
+            "topic": "CI/CD",
+            "question": "What is the main benefit of Continuous Delivery?",
+            "options": [
+                "Faster releases",
+                "More bugs",
+                "Less automation"
+            ],
+            "answer": "Faster releases",
+            "explanation": "Continuous Delivery ensures software can be released quickly and reliably at any time."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which tool is used for containerization?",
+            "options": [
+                "Docker",
+                "Ansible",
+                "Nagios"
+            ],
+            "answer": "Docker",
+            "explanation": "Docker packages applications into containers for consistent deployment."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which language is primarily used in Ansible playbooks?",
+            "options": [
+                "YAML",
+                "JSON",
+                "XML"
+            ],
+            "answer": "YAML",
+            "explanation": "Ansible playbooks are written in YAML, a human-readable data serialization format."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "Which tool is often paired with Prometheus for visualization?",
+            "options": [
+                "Grafana",
+                "Kubernetes",
+                "Git"
+            ],
+            "answer": "Grafana",
+            "explanation": "Grafana is commonly used with Prometheus to visualize metrics in dashboards."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "What does alerting in monitoring systems help with?",
+            "options": [
+                "Notifying issues",
+                "Deploying code",
+                "Building containers"
+            ],
+            "answer": "Notifying issues",
+            "explanation": "Alerting notifies teams when metrics cross thresholds, helping detect problems early."
+        },
+        {
             "topic": "Cloud",
             "question": "Which AWS service provides object storage?",
             "options": [
@@ -19,7 +74,149 @@
                 "Lambda"
             ],
             "answer": "S3",
-            "explanation": "S3 (Simple Storage Service) provides scalable object storage."
+            "explanation": "Amazon S3 (Simple Storage Service) provides scalable object storage."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which cloud provider offers Azure DevOps?",
+            "options": [
+                "Microsoft Azure",
+                "AWS",
+                "Google Cloud"
+            ],
+            "answer": "Microsoft Azure",
+            "explanation": "Azure DevOps is a Microsoft service for CI/CD and project management."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "What is the main goal of DevOps?",
+            "options": [
+                "Collaboration",
+                "Isolation",
+                "Manual processes"
+            ],
+            "answer": "Collaboration",
+            "explanation": "DevOps aims to improve collaboration between development and operations teams."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "Which practice reduces the risk of large deployments?",
+            "options": [
+                "Incremental changes",
+                "Big bang releases",
+                "Manual testing only"
+            ],
+            "answer": "Incremental changes",
+            "explanation": "Incremental changes reduce risk by deploying small updates frequently."
+        },
+        {
+            "topic": "CI/CD",
+            "question": "What does CD stand for in DevOps?",
+            "options": [
+                "Continuous Deployment",
+                "Continuous Development",
+                "Code Delivery"
+            ],
+            "answer": "Continuous Deployment",
+            "explanation": "CD can mean Continuous Deployment or Continuous Delivery, both focusing on automating releases."
+        },
+        {
+            "topic": "CI/CD",
+            "question": "Which practice ensures code changes are automatically tested before merging?",
+            "options": [
+                "Continuous Integration",
+                "Continuous Monitoring",
+                "Continuous Deployment"
+            ],
+            "answer": "Continuous Integration",
+            "explanation": "Continuous Integration runs automated tests to validate code before merging."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which tool is commonly used for infrastructure automation?",
+            "options": [
+                "Terraform",
+                "Jenkins",
+                "Git"
+            ],
+            "answer": "Terraform",
+            "explanation": "Terraform automates infrastructure provisioning using code."
+        },
+        {
+            "topic": "Automation",
+            "question": "Which tool is primarily used for configuration management?",
+            "options": [
+                "Ansible",
+                "Docker",
+                "Kubernetes"
+            ],
+            "answer": "Ansible",
+            "explanation": "Ansible automates configuration management and application deployment."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "Which metric is commonly tracked to measure system health?",
+            "options": [
+                "CPU usage",
+                "Code commits",
+                "Pull requests"
+            ],
+            "answer": "CPU usage",
+            "explanation": "Monitoring CPU usage helps detect performance bottlenecks and system overloads."
+        },
+        {
+            "topic": "Monitoring",
+            "question": "Which tool is widely used for log management?",
+            "options": [
+                "ELK Stack",
+                "Docker",
+                "GitHub"
+            ],
+            "answer": "ELK Stack",
+            "explanation": "The ELK Stack (Elasticsearch, Logstash, Kibana) is used for centralized log management."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which Google Cloud service provides serverless computing?",
+            "options": [
+                "Cloud Functions",
+                "Compute Engine",
+                "Cloud Storage"
+            ],
+            "answer": "Cloud Functions",
+            "explanation": "Google Cloud Functions allows running code in a serverless environment."
+        },
+        {
+            "topic": "Cloud",
+            "question": "Which Azure service is used for hosting virtual machines?",
+            "options": [
+                "Azure Virtual Machines",
+                "Azure Functions",
+                "Azure Blob Storage"
+            ],
+            "answer": "Azure Virtual Machines",
+            "explanation": "Azure Virtual Machines provide scalable compute resources in the cloud."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "Which principle emphasizes small, frequent changes?",
+            "options": [
+                "Continuous Improvement",
+                "Big Bang Deployment",
+                "Manual Testing"
+            ],
+            "answer": "Continuous Improvement",
+            "explanation": "Continuous Improvement encourages iterative, small updates to reduce risk."
+        },
+        {
+            "topic": "DevOps Culture",
+            "question": "Which practice encourages shared responsibility between teams?",
+            "options": [
+                "Collaboration",
+                "Isolation",
+                "Waterfall"
+            ],
+            "answer": "Collaboration",
+            "explanation": "Collaboration ensures development and operations teams work together seamlessly."
         }
-        
     ]
